@@ -6,18 +6,53 @@ text-align: center;
 
 #main {
 	width: 1000px;
-	height: 60px;
-	margin: 25px auto;
+	height: 80px;
+	margin: 0px auto;
+	margin-top: -40px;
 	font-size: 40px;
 	font-family: "Verdana",Verdana, Sans;
-	color: white;
+	color: black;
 }
+
 
 #pic {
 	width: auto;
 	height: 500px;
+	padding-bottom: 0;
 }
 
 p {
-	color: white;
+	color: #707070;
+	margin-top: -60px;
+	font-family: "Verdana",Verdana, Sans;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #707070;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Verdana",Verdana, Sans;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+section {
+	max-width: 500px;
+	margin: 0;
 }
